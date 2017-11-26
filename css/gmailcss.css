@@ -1,0 +1,28 @@
+/*
+* {
+   border: 1px solid grey;
+ }
+*/
+
+.appChooser {
+  display: inline-block;
+}
+
+.inboxHeader {
+  display: inline-block;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+#composeButton {
+  float: right;
+}
+
+#hamburgerButton {
+  float: left;
+}
+
+#fullPage {
+  width: 640px;
+}
