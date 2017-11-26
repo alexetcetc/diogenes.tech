@@ -1,8 +1,13 @@
 /*
+
+#fullPage {
+  width: 1136px;
+}
+
+*/
 * {
    border: 1px solid grey;
- }
-*/
+}
 
 .appChooser {
   display: inline-block;
@@ -10,19 +15,25 @@
 
 .inboxHeader {
   display: inline-block;
-  align-self: center;
-  align-content: center;
-  align-items: center;
 }
 
 #composeButton {
   float: right;
+  text-align: right;
+}
+
+#inbox {
+  text-align: center;
 }
 
 #hamburgerButton {
   float: left;
+  text-align: left;
 }
 
-#fullPage {
-  width: 640px;
+
+
+.inboxHeader {
+  margin: auto;
+  width: 30%;
 }
