@@ -1,12 +1,23 @@
 /*
+#fcfcfc
 
-#fullPage {
-  width: 1136px;
+* {
+border: .1px solid black;
 }
 
 */
-* {
-   border: 1px solid grey;
+
+#fullPage {
+  height: 5000px;
+}
+
+
+
+
+.sticky-part {
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .appChooser {
@@ -15,6 +26,7 @@
 
 .inboxHeader {
   display: inline-block;
+  vertical-align: middle;
 }
 
 #composeButton {
@@ -31,9 +43,33 @@
   text-align: left;
 }
 
-
+#search {
+  float: left;
+  border-width: thin;
+  border-color: grey;
+  display: inline-block;
+  width: 100%;
+  padding-top: 5px;
+  background-color: white;
+}
 
 .inboxHeader {
+  padding-top: 5px;
   margin: auto;
   width: 30%;
+}
+
+.emailHolder {
+  display: inline-block;
+}
+
+.emailLeft {
+  width: 10%
+}
+
+.emailMiddle {
+ width: 70%
+}
+.emailRight {
+  width: 20%
 }
